@@ -1,0 +1,19 @@
+body{
+    width: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 15px;
+    padding: 10px;
+}
+
+p:hover{
+background-color: blueviolet;
+}
+
+p:hover::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+}
