@@ -1,0 +1,18 @@
+body {
+  
+    background-color:rgb(118, 103, 91);
+}
+
+nav {
+    opacity: 0.5;
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    background: rgb(2,0,36);
+background: linear-gradient(132deg, rgba(2,0,36,0.9024859943977591) 3%, rgba(104,89,92,1) 14%, rgba(219,190,156,1) 42%, rgba(255,255,255,0.05374649859943981) 92%);
+}
+p {
+    background: rgb(2,0,36);
+background: linear-gradient(132deg, rgba(2,0,36,0.9024859943977591) 3%, rgba(104,89,92,1) 14%, rgba(219,190,156,1) 42%, rgba(255,255,255,0.05374649859943981) 92%);
+}
