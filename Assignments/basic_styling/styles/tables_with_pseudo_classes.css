@@ -1,0 +1,33 @@
+table{
+    width: 40%;
+    height: auto;
+    border-collapse: collapse;
+}
+
+th{
+    background: rgb(44, 177, 44);
+    color: black;
+    font-size: x-large;
+    text-align: left;
+    border-bottom: 2px solid white;
+    height:50px;
+}
+
+    tr:nth-child(even){
+        background: rgb(31, 131, 31);
+        color:white;
+        font-size: x-large;
+        text-align: left;
+        border-bottom: 2px solid white;
+        height:50px;
+    }
+
+    tr:nth-child(odd){
+        background: rgb(58, 206, 58);
+        color:white;
+        font-size: x-large;
+        text-align: left;
+        border-bottom: 2px solid white;
+        height:50px;
+
+    }
