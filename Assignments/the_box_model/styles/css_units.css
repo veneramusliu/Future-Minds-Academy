@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    width: 50%;
+    height: 100vh;
+}
+
+h1 {
+    text-decoration: underline;
+    font-size: 2em;
+    margin-top: 0px;
+}
+
+p {
+    font-size: 0.9em;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+section {
+    height: 25vh;
+}
+
+.one {
+    background-color: rgb(53, 47, 47);
+    color: white;
+}
+
+.two {
+    background-color: rgb(235, 217, 180);
+    color: black;
+}
+
+hr {
+    width: 33%;
+    border-color: red;
+}
