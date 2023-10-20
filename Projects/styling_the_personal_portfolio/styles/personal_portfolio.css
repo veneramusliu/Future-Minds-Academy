@@ -1,0 +1,220 @@
+/*HOME-PAGE CSS*/
+html {
+    cursor: url(../img/icons8-cursor-24.png) 5 5, auto;
+}
+
+body {
+    background-image: url(../img/bck_img4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: cursive;
+    margin: 1em 10% 0 10%;
+    font-size: 1.1em;
+}
+
+hr {
+    border: 1px solid rgb(47, 79, 79);
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+    margin: 0 10px;
+}
+
+nav a {
+    display: inline;
+    padding: 10px 10px;
+    background-color: rgb(47, 79, 79);
+    color: rgb(220, 220, 220);
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: inherit;
+}
+
+nav a:hover {
+    background-color: rgb(220, 220, 220);
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px 4px rgb(47, 79, 79);
+}
+
+.box {
+    display: block;
+    background-color: rgb(128, 128, 128);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    border: transparent;
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px 5px rgb(105, 105, 105);
+    transition: transform 0.2s;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    background-color: rgb(211, 211, 211);
+    box-shadow: 0px 0px 5px 4px rgb(47, 79, 79);
+    border: solid 2px black;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+p {
+    text-align: justify;
+}
+
+.education {
+    display: block;
+    background-color: rgb(192, 192, 192);
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 4px rgb(47, 79, 79);
+    padding: 8px 4px 8px 6px;
+    margin: 0% 4% 0 0%;
+    text-align: left;
+}
+h2 {
+    margin: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 80%;
+    margin: auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(192, 192, 192);
+    color: rgb(8, 8, 8);
+}
+
+.projects {
+    text-align: left;
+    line-height: 2;
+}
+
+.projects a {
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: rgb(192, 192, 192);
+    color: black;
+    margin-left: 5px;
+    position: relative;
+    top: -12px;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: inherit;
+}
+
+.projects a:hover {
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+
+footer {
+    margin-top: auto;
+    padding: 10px;
+    background-color: rgb(47, 79, 79);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+footer p {
+    text-align: center;
+}
+
+/*PROJECT-PAGE CSS*/
+
+.img-project1 {
+    border-radius: 0px;
+}
+
+figcaption {
+    padding: 5px;
+}
+
+/*CONTACT-PAGE.CSS*/
+.contact {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(192, 192, 192);
+    color: rgb(220, 220, 220);
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.contact:hover {
+    background-image: linear-gradient(to right, rgb(169, 169, 169), rgb(105, 105, 105));
+    box-shadow: 0px 0px 5px 4px rgb(47, 79, 79);
+}
+
+.contact label {
+    display: block;
+    color: rgb(47, 79, 79);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact input, .contact textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(47, 79, 79);
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    background-color: rgb(47, 79, 79);
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 0.9em;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(112, 128, 144);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    font-family: cursive;
+    font-size: 0.9em;
+}
+
+.social-media h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+
+}
+
+.social-media a {
+    cursor: inherit;
+}
