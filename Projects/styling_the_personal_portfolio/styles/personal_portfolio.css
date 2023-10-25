@@ -39,8 +39,8 @@ nav li {
 nav a {
     display: inline;
     padding: 10px 10px;
-    background-color: rgb(47, 79, 79);
-    color: rgb(220, 220, 220);
+    background-color: rgb(157, 184, 184);
+    color: rgb(0, 0, 0);
     border-radius: 5px;
     text-decoration: none;
     cursor: inherit;
@@ -48,29 +48,23 @@ nav a {
 
 nav a:hover {
     background-color: rgb(220, 220, 220);
-    color: black;
-    font-weight: bold;
-    border: 2px solid black;
-    box-shadow: 0px 0px 5px 4px rgb(47, 79, 79);
 }
 
 .box {
     display: block;
-    background-color: rgb(128, 128, 128);
+    background-color: transparent;
     margin: 0;
     padding: 20px;
     text-align: center;
     border: transparent;
     border-radius: 15px;
-    box-shadow: 0px 3px 10px 5px rgb(105, 105, 105);
-    transition: transform 0.2s;
+    box-shadow: 0px 1px 5px 1px rgb(211, 211, 211);
 }
 
 .box:hover {
-    transform: scale(1.1);
-    background-color: rgb(211, 211, 211);
-    box-shadow: 0px 0px 5px 4px rgb(47, 79, 79);
-    border: solid 2px black;
+    background-color: rgb(234, 233, 233);
+    border: solid 2px transparent;
+    box-shadow: 0px 1px 1px 2px rgb(183, 183, 183);
 }
 
 img {
@@ -84,13 +78,14 @@ p {
 
 .education {
     display: block;
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(214, 211, 211);
     border-radius: 15px;
-    box-shadow: 0px 0px 5px 4px rgb(47, 79, 79);
+    box-shadow: 0px 0px 2px 2px rgb(158, 158, 158);
     padding: 8px 4px 8px 6px;
     margin: 0% 4% 0 0%;
     text-align: left;
 }
+
 h2 {
     margin: 0px;
 }
@@ -105,8 +100,8 @@ table {
 th, td {
     padding: 10px;
     text-align: center;
-    border: 2px solid black;
-    background-color: rgb(192, 192, 192);
+    border: 2px solid rgb(56, 56, 56);
+    background-color: rgb(214, 211, 211);
     color: rgb(8, 8, 8);
 }
 
@@ -118,7 +113,7 @@ th, td {
 .projects a {
     text-decoration: none;
     border: 2px solid black;
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(214, 211, 211);
     color: black;
     margin-left: 5px;
     position: relative;
@@ -136,10 +131,11 @@ th, td {
 footer {
     margin-top: auto;
     padding: 10px;
-    background-color: rgb(47, 79, 79);
-    border-radius: 10px;
+    background-color: rgb(157, 184, 184);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 footer p {
@@ -147,7 +143,6 @@ footer p {
 }
 
 /*PROJECT-PAGE CSS*/
-
 .img-project1 {
     border-radius: 0px;
 }
@@ -161,21 +156,20 @@ figcaption {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(226, 226, 226);
     color: rgb(220, 220, 220);
     border-radius: 15px;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid rgb(137, 136, 136);
 }
 
 .contact:hover {
-    background-image: linear-gradient(to right, rgb(169, 169, 169), rgb(105, 105, 105));
-    box-shadow: 0px 0px 5px 4px rgb(47, 79, 79);
+    background-image: linear-gradient(to right, rgb(234, 229, 229), rgb(178, 175, 175));
 }
 
 .contact label {
     display: block;
-    color: rgb(47, 79, 79);
+    color: rgb(53, 58, 58);
     font-weight: bold;
     margin-top: 10px;
 }
@@ -184,15 +178,16 @@ figcaption {
     width: 50%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 2px solid rgb(47, 79, 79);
+    font-family: cursive;
+    border: 2px solid rgb(137, 136, 136);
     border-radius: 5px;
 }
 
 input[type=submit] {
-    background-color: rgb(47, 79, 79);
-    color: white;
+    background-color: rgb(195, 193, 193);
+    color: black;
     padding: 15px 25px;
-    border: none;
+    border: 1px solid rgb(137, 136, 136);
     border-radius: 4px;
     cursor: pointer;
     margin-top: 20px;
@@ -201,9 +196,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: rgb(112, 128, 144);
+    background-color: rgb(148, 152, 156);
     color: rgb(0, 0, 0);
-    border: 2px solid black;
+    border: 2px solid transparent;
     font-family: cursive;
     font-size: 0.9em;
 }
@@ -212,7 +207,6 @@ input[type=submit]:hover {
     text-align: center;
     text-decoration: underline;
     color: black;
-
 }
 
 .social-media a {
