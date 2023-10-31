@@ -1,0 +1,83 @@
+level-24
+flex-flow: column-reverse wrap-reverse;
+justify-content: center;
+align-content: space-between;
+
+level-23
+flex-direction: column-reverse;
+align-content: center; 
+
+level-22
+align-content: end;
+
+level-21
+align-content: start;
+
+level-20
+flex-flow: column wrap;
+
+level-19
+flex-direction: column;
+flex-wrap: wrap;
+
+level-18
+flex-wrap: wrap;
+
+level-17
+align-self: flex-end;
+order: 2;
+
+level-16
+align-self: flex-end ;
+
+level-15
+order: -4;
+
+level-14
+order: 1;
+
+level-13
+flex-direction: row-reverse;
+justify-content: center;
+align-items: flex-end;
+
+level-12
+flex-direction: column-reverse;
+justify-content: space-between;
+
+level-11
+flex-direction: column;
+justify-content: end;
+
+level-10
+flex-direction: row-reverse;
+justify-content: start;
+
+level-9
+flex-direction: column;
+
+level-8
+flex-direction: row-reverse;
+
+level-7
+justify-content: space-around;
+align-items: flex-end;
+
+level-6
+justify-content: center;
+align-items: center;
+
+level-5
+align-items: flex-end;
+
+level-4
+justify-content: space-between;
+
+level-3
+justify-content: space-around;
+
+level-2
+justify-content: center;
+
+level-1
+justify-content: flex-end;
