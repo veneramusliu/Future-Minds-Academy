@@ -39,6 +39,11 @@ body {
     color: aliceblue;
     padding: 10px 20px;
     margin: 10px 0;
+    cursor: pointer;
+}
+
+.asideButton:hover {
+    background-color: rgb(164, 194, 195);
 }
 
 .main {
@@ -55,7 +60,7 @@ body {
     font-size: 0.8rem;
 }
 
-.section1 {
+.section1{
     margin: 40px 0;
 }
 
@@ -104,6 +109,6 @@ body {
 }
 
 .sectionParagraf {
-    line-height: 40px;
-    font-size: 1.3rem;
+    line-height: 25px;
+    font-size: 0.9rem;
 }
