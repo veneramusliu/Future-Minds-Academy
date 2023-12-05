@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vowels and Consonants</title>
+</head>
+
+<body>
+    <script>
+        document.addEventListener("keypress", (e) => {
+            let letter = e.key;
+            letter = prompt('Write a letter');
+            letter = letter.toUpperCase();
+
+
+            if (letter.length !== 1) {
+                console.log(`You entered more than one character.`);
+            }
+            else {
+
+                if (letter.match(/[aeiouAEIOU]/)) {
+                    console.log(`You entered a vowel: ${letter}`);
+                }
+                else if (letter.match(/[bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ]/)) {
+                    console.log(`You entered a consonant: ${letter}`);
+                }
+                else if (!isNaN(parseInt(letter))) {
+                    console.log(`You entered a number: ${letter}`);
+                }
+                else if (letter.match(/[^a-zA-Z0-9]/)) {
+                    console.log(`You entered another symbol: ${letter}`);
+                }
+                else {
+                    console.log(`You entered an unknown character: ${letter}`);
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
