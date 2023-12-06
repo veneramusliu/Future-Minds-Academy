@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width" , initial-scale=1.0">
+    <title>Boring calculator</title>
+</head>
+
+<body>
+    <script>
+        let fristNumber = parseInt(prompt('Write the first number:'));
+        let operation = prompt('Write the operation:');
+        let secondNumber = parseInt(prompt('Write the second number:'));
+        let results;
+
+        switch (operation) {
+            case 'addition':
+                results = fristNumber + secondNumber;
+                break;
+            case 'subtraction':
+                results = fristNumber - secondNumber;
+                break;
+            case 'multiplication':
+                results = fristNumber * secondNumber;
+                break;
+            case 'division':
+                results = fristNumber / secondNumber;
+                break;
+            case 'modulus':
+                results = fristNumber % secondNumber == 0;
+                break;
+        }
+        console.log(`The results is:  ${results}`)
+    </script>
+</body>
+
+</html>
