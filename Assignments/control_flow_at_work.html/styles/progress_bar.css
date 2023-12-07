@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.progress-bar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-inline: 1rem;
+    padding: 0.5rem;
+    height: 100vh;
+    width: 3vw;
+}
+
+.indicator {
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.progress-bar-wrapper {
+    flex-grow: 1;
+    position: relative;
+}
+
+.progress-baar {
+    position: absolute;
+    bottom: 0;
+}
+
+.tooltip {
+    visibility: hidden;
+    width: 50px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+}
+
+.tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: gray transparent transparent transparent;
+    transform: translateX(-50%);
+}
