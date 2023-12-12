@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess until correct</title>
+</head>
+
+<body>
+    <script>
+        const answer = Math.floor(Math.random() * 6) + 1;
+        let tries = 0;
+
+        do {
+            guessNumber = parseInt(prompt('Gjej numrin mes 1 deri 6'));
+            tries++;
+        }
+        while (guessNumber !== answer);
+        //output with ternary operator
+        alert(`Congratulations, you guessed the correct answer in ${tries} ${tries == 1 ? 'try' : 'tries'}`);
+
+
+
+
+    </script>
+</body>
+
+</html>
