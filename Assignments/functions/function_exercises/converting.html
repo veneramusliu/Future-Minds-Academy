@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converting kilometers to miles</title>
+</head>
+
+<body>
+    <script>
+        function convertKilometersToMiles(km) {
+            const miles = km / 1.60934;
+            return miles;
+        }
+
+        let km = parseInt(prompt('Sheno numrin e kilometrave:'));
+        let miles = convertKilometersToMiles(km);
+        console.log(`${km} kilometra jane afersisht ${miles.toFixed(2)} milje`);
+
+
+    </script>
+</body>
+
+</html>
